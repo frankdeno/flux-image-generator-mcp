@@ -2,6 +2,10 @@
 
 An MCP (Model Context Protocol) server for generating images using Black Forest Lab's FLUX model. Uses the latest MCP SDK (v1.7.0).
 
+<a href="https://glama.ai/mcp/servers/@frankdeno/flux-image-generator-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@frankdeno/flux-image-generator-mcp/badge" alt="FLUX Image Generator Server MCP server" />
+</a>
+
 ## Features
 
 - Generate images based on text prompts
