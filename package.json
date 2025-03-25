@@ -1,0 +1,32 @@
+{
+  "name": "@modelcontextprotocol/server-flux-image-generator",
+  "version": "1.0.0",
+  "description": "MCP server for generating images with Black Forest Lab's FLUX model",
+  "license": "MIT",
+  "author": "Model Context Protocol (https://modelcontextprotocol.io)",
+  "homepage": "https://modelcontextprotocol.io",
+  "type": "module",
+  "bin": {
+    "mcp-server-flux-image-generator": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && shx chmod +x dist/*.js",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "axios": "^1.8.4",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "shx": "^0.3.4",
+    "typescript": "^5.6.2"
+  }
+}
